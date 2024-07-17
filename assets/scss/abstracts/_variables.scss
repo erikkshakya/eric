@@ -28,10 +28,10 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #1e549f;
+$blue:    #33186B;
 $indigo:  #695aa6;
-$purple:  #6f42c1;
-$pink:    #e83e8c;
+$purple:  #7776B3;
+$pink:    #E2BBE9;
 $red:     #ec185d;
 $orange:  #ff6d02;
 $yellow:  #ffc107;
@@ -56,7 +56,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $indigo;
+$primary:       $blue;
 $secondary:     $gray-800;
 $success:       $green;
 $info:          $cyan;
@@ -67,7 +67,7 @@ $dark:          $gray-900;
 
 $theme-colors: ();
 $theme-colors: map-merge((
-  "primary":    $indigo,
+  "primary":    $blue,
   "secondary":  $secondary,
   "success":    $success,
   "info":       $info,
@@ -81,13 +81,18 @@ $theme-colors: map-merge((
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
-@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i');
+// @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      'Open Sans', sans-serif;
-$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-sans-serif:      'Press Start 2P', system-ui;
+// $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:            $font-family-sans-serif;
 // stylelint-enable value-keyword-case
+  // font-family: "Press Start 2P", system-ui;
+  // font-weight: 400;
+  // font-style: normal;
+
 
 
 

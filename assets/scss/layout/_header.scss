@@ -5,7 +5,8 @@
     @include flex;
     align-items: center;  
     justify-content: center;  
-    background-image: url(../imgs/header.jpg);
+    background-image: url(../imgs/cat.jpeg);
+    // background-image: url(../imgs/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -23,6 +24,9 @@
         margin-top: 20px;
         flex-grow: 1;
         max-width: 550px;
+        margin-right: auto !important;
+        margin-left: 0 !important;
+        padding-left: 100px !important;
         
         .header-title {
             
@@ -88,6 +92,7 @@
 
     .header-content {
         padding-left: calc(100% / 5) !important;
+        padding-top: 250px;
     }
 }
 
